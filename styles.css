@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 512px;
+  justify-content: center;
+}
+.squares {
+  width: 32px;
+  height: 32px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  border-radius: 1px;
+  border-color: #ff534a;
+  border-style: solid;
+  background-color: #4490ff;
+}
